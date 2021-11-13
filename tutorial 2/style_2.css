@@ -54,6 +54,7 @@ body {
 }
 
 @keyframes kvadrat {
+    
     0% {
         transform: rotate(0deg);
         border-color: brown;
@@ -76,4 +77,5 @@ body {
         border-color: red;
         border-width: 40px;
     }
+
 }
