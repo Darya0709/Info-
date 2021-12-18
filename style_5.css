@@ -1,0 +1,61 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+ .box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 20px solid purple;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgb(233, 16, 204),
+    0 0 10px rgb(201, 24, 201),
+      0 0 10px rgb(238, 3, 167),
+     0 0 10px rgb(228, 26, 201),
+     0 0 10px rgb(231, 8, 220);
+    animation: box 1.5s ease-in-out infinite;
+ }
+@keyframes box {
+    0%{
+        border-color: purple;
+        transform: scale(2);
+    }
+    20% {
+        border-color: purple;
+        transform: scale(2.5);
+    }
+    25% {
+        border-color: purple;
+        transform: scale(2);
+    }
+    50% {
+        border-color: purple;
+        transform: scale(2.5);
+    }
+    55%{
+        border-color: purple;
+        transform: scale(2);
+    }
+    75% {
+        border-color: purple;
+        transform: scale(2.5);
+    }
+    100%{
+        border-color: purple;
+        transform: scale(2);
+    }
+}
